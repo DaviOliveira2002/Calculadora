@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+
+    background-color: #4f556f;
+}
+
+button{
+    width: 60px;
+    height: 60px;
+    background-color: #343957;
+    color: white;
+
+    font-size: 20px;
+    border-color: #343957;
+
+    cursor: pointer;
+}
+
+p{
+    font-size: 15px;
+    color: #5e6377;
+
+    
+}
+
+h1.name{
+    text-align: center;
+    color: #7c0718;
+
+    padding-block: 10px;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    width: 283px;
+    padding: 1%;
+
+    color: white;
+    background-color: #343957;
+
+    -webkit-box-shadow: -4px 0px 12px 5px rgba(52,57,87,0.45);
+    -moz-box-shadow: -4px 0px 12px 5px rgba(52,57,87,0.45);
+    box-shadow: -4px 0px 12px 5px rgba(52,57,87,0.45);
+}
+
+.result{
+    text-align: right;
+
+    padding: 15px 10px;
+    height: 80px;
+
+    margin-bottom: 10px;
+}
+
+#result{
+    overflow: hidden;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+.buttons .div{
+    font-size: 28px;
+}
+
+.buttons .buttonArithmetic{
+    color: red;
+    background-color: #4f556f;
+}
+
+.buttons .buttonResult{
+    background-color: red;
+    width: 123px;
+}
