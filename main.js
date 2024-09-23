@@ -1,4 +1,4 @@
-alert("Olá");
+
 function cleanResult(){
     document.querySelector("#result").innerHTML = "";
     document.querySelector("#numberExpression").innerHTML = "";
